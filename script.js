@@ -25,4 +25,4 @@ function  updateMargin() {
     document.querySelector('.slide--width').style.marginLeft = `-${newMargin}px`;
 }
 
-setInterval(proximo, 2500);
+setInterval(proximo, 5000);

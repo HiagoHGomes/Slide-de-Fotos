@@ -1,17 +1,24 @@
 body {
     margin: 0;
+    background-color: black;
+    font-weight: bolder;
 }
 
 header {
     margin: 0;
     display: flex;
     flex-direction: column;
+    color: white;
+    font-size: 25px;
+    text-align: center;
     height: 100vh; /* Para mostar na altura disponivel. */
 }
 
 .header {
     height: 50px;
-    background-color: red;
+    background-color: black;
+    padding-top: 10px;
+    text-shadow: 0px 1px 1px #FFF;
 }
 
 .slider {
@@ -53,5 +60,22 @@ header {
     border-radius: 50%;
     overflow: hidden;
     cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
 }
 
